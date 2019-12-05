@@ -1,0 +1,13 @@
+[package]
+name = "ccxt"
+version = "0.1.0"
+authors = ["Alexander Irbis <irbis.labs@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = [
+    "api/binance",
+]
+
+[dependencies]
+ccxt-binance = { path = "api/binance" }
